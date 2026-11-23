@@ -1,0 +1,19 @@
+# Core
+tensorflow            
+numpy
+pandas
+pillow
+joblib
+scikit-learn
+
+# Evaluation and plots
+matplotlib
+seaborn
+openpyxl
+
+# Frontend
+streamlit
+
+# Tip: after your scripts run cleanly, pin exact versions with
+#   pip freeze | grep -iE "tensorflow|keras|numpy|pandas|pillow|joblib|scikit-learn|matplotlib|seaborn|openpyxl|streamlit"
+# The saved model's architecture JSON depends on your Keras version.
