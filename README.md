@@ -21,7 +21,7 @@ Four-class brain MRI classifier built with transfer learning on DenseNet121, wit
 
 ```
 ├── block1_train.py      # train and save the model
-├── block2_predict.py    # predict the tumor type for one image
+├── predict.py    # predict the tumor type for one image
 ├── block3_stats.py      # test-set metrics, confusion matrix, Excel export
 ├── app.py               # Streamlit frontend
 ├── requirements.txt
@@ -70,7 +70,7 @@ Saves `brain_mri_densenet.joblib` (and `brain_mri_densenet.keras`). Set `MAX_PER
 
 Set `IMAGE_PATH` in `block2_predict.py`, then:
 ```bash
-python block2_predict.py
+python predict.py
 ```
 
 **3. Evaluate on the test set**
